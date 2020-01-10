@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Library</title>
+</head>
+<body>
+    <form>
+        <label for="title">Book Title:</label>
+        <input type="text" name="title" id="title" placeholder="Eg. The Hunger Games"/>
+        <br />
+        <br />
+        <label for="isbn">ISBN:</label>
+        <input type="number" name="isbn" id="isbn" placeholder="Eg. 1843560283" />
+        <br />
+        <br />
+        <label for="author">Author:</label>
+        <input type="text" name="author" id="author" placeholder="Eg. Suzanne Collins" />
+        <br />
+        <br />
+        <label for="genre">Genre:</label>
+        <input type="text" name="genre" id="genre" placeholder="Eg. Novel, Sci-fi, Thriller" />
+        <br />
+        <br />
+        <label for="yearOfPublish">Year of Publish:</label>
+        <input type="number" name="yearOfPublish" id="yearOfPublish" placeholder="Eg. 2008">
+        <br />
+        <br />
+        <label for="numberOfPages">Number of Pages:</label>
+        <input type="number" name="numberofPages" id="numberOfPages" placeholder="Eg. 374">
+        <br />
+        <br />
+        <button type="button" id="btnAdd">Save</button>
+    </form>
+    <table>
+        <tbody></tbody>
+    </table>
+    <div>
+        <p style="color: gray;">Note: Don't use a dash '-' in the ISBN input!</p>
+    </div>
+    <div id="error"></div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
